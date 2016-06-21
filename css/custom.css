@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/*** BSP: @extend %reset;***/
+/*** Mixins & Placeholders ***/
+/**** caret ****/
+/* Bsp. @include alpha-background-color(rgba(black, 0.35), white); */
+/******* SVG *********/
+/*** WP Specials ***/
+/* Mediaqueries breakpoints */
+/* Helper Classes */
+.wrapper {
+  border: 1px solid red; }
+
+/*# sourceMappingURL=custom.css.map */
