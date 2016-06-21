@@ -6,7 +6,7 @@
 		</ul>
 	</nav>
 </footer>
-<div class="anker">
+<div class="scroll-to-top">
 	<i class="fa fa-caret-up" aria-hidden="true"></i> zum Seitenanfang
 </div>
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>

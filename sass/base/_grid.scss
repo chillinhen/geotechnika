@@ -1,0 +1,15 @@
+.wrapper{
+	@include outer-container(960px);
+	
+	body > header & > *{
+		@include span-columns(6);
+	}
+}
+
+.content{
+	@include outer-container;
+	padding-bottom:3 * $vspacing;
+	figure{
+		@include span-columns(4);
+	}
+}

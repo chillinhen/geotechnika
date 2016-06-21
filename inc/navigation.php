@@ -1,4 +1,4 @@
-<nav class="main-nav">
+<nav class="main-nav wrapper">
 	<ul>
 		<li><a href="geokunstoffe.php">Geokunstoffe</a></li>
 		<li><a href="gabionen.php">Gabionen</a></li>

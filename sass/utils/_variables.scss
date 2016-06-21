@@ -1,0 +1,18 @@
+$foo:red;
+.foo{
+    border:1px solid $foo;
+}
+
+$color_primary:		#2ea724;
+$color_body:		#000000;
+$color_links:		$color_primary;
+$color_border:		#ccc;
+
+
+$base-font: 		"Lato", arial, helvetica, sans-serif !default;
+$header-font: 		$base-font;
+$base-font-size:    14px;
+$semibold:          600;
+
+
+$vspacing: 		$base-font-size;

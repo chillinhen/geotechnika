@@ -1,0 +1,65 @@
+body > header,
+body > .banner{
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+}
+body > header{
+	z-index:9;
+	min-height:100px;
+}
+body > header {
+	@include alpha-background-color(rgba(white, 0.75), black);
+}
+.banner {
+	
+	> img {
+		width:100%;
+		max-width:none;
+		height:auto;
+	}
+}
+body > footer {
+	background:$color_primary;
+	* {
+	color:white;
+	}
+	nav {
+		text-align:center;
+		padding:1.4em 0;
+		li {
+			display:inline;
+			border-right:1px solid currentColor;
+			padding:0 1em;
+			&:last-child{border:0;}
+		}
+	}
+	a:hover{
+		color:white;
+	}
+	
+}
+
+.content{
+	margin-bottom:$vspacing;
+	border-bottom:1px solid $color_border;
+}
+
+ .scroll-to-top {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    @include border-radius(.5em);
+    bottom: 5%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    padding: .5em 1em;
+    position: fixed;
+    right: 20px;
+    transition: background-color 0.1s linear 0s;
+    z-index: 9999;
+    &:hover{
+    	background: $color-primary;
+    	opacity: 0.8;
+    }
+}

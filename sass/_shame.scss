@@ -1,3 +1,26 @@
-.wrapper{
-border:1px solid red;
+.banner + .wrapper{
+	margin-top:375px;
+}
+
+.main-nav{
+	position:relative;
+	
+	ul {
+		background:$color_primary;
+		* {color:white;}
+		position:absolute;
+		padding:3*$vspacing 2*$vspacing;		
+		li {
+			font-size:large;
+		}
+		&:after{
+			content:' ';
+			display:block;
+			width:inherit;
+			height:3 * $vspacing;
+			@include linear-gradient(red, green);
+		}
+	}
+
+	
 }
