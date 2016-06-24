@@ -1,7 +1,10 @@
-<!-- Add your site or application content here -->
+<?php 
+$title="Geokunststoffe";
+$bodyClass="geokunststoffe";
+$bodyBackgroundImage = "img/banner_geokunststoffe.png";
+?>
 <?php include 'inc/header.php'; ?>
-<div class="banner">
-	<img src="img/banner_geokunststoffe.png" alt="Ihr kompetenter Fachgroßhandel für Geokunstoffe und Gabionen">
+<div class="banner wrapper">
 	<?php include 'inc/navigation.php'; ?>
 </div>
 <div class="wrapper">
@@ -29,52 +32,58 @@
 	<div id="geogitter" class="content gallery">
 		<h2>Geogitter</h2>
 		<figure>
-		  <img src="img/produkte/geogitter-gewebt-geraschelt_xs.jpg" alt="Gewebte / Geraschelte Geogitter">
-		  <figcaption>
-		    Gewebte / Geraschelte Geogitter
-		  </figcaption>
-		</figure>
-		<figure>
-		  <img src="img/produkte/geogitter-knotensteife-biaxial_xs.jpg" alt="Gelegte uniaxiale und biaxiale Geogitter">
-		  <figcaption>
-		    Gelegte uniaxiale und biaxiale Geogitter
-		  </figcaption>
-		</figure>
-		<figure>
-		  <img src="img/produkte/geogitter-knotensteife-biaxial_xs.jpg" alt="Knotensteife biaxiale Geogitter">
-		  <figcaption>
-		    Knotensteife biaxiale Geogitter
-		  </figcaption>
+			<figure>
+			  <img src="img/produkte/geogitter-gewebt-geraschelt_xs.jpg" alt="Gewebte / Geraschelte Geogitter">
+			  <figcaption>
+			    Gewebte / Geraschelte Geogitter
+			  </figcaption>
+			</figure>
+			<figure>
+			  <img src="img/produkte/geogitter-unaxial-biaxial_xs.jpg" alt="Gelegte uniaxiale und biaxiale Geogitter">
+			  <figcaption>
+			    Gelegte uniaxiale und biaxiale Geogitter
+			  </figcaption>
+			</figure>
+			<figure>
+			  <img src="img/produkte/geogitter-knotensteife-biaxial_xs.jpg" alt="Knotensteife biaxiale Geogitter">
+			  <figcaption>
+			    Knotensteife biaxiale Geogitter
+			  </figcaption>
+			</figure>
 		</figure>
 	</div>
 	<div id="verbundstoffe" class="content gallery">
 		<h2>Verbundstoffe</h2>
 		<figure>
-		  <img src="img/produkte/geogitter-vliesstoff-verstaerkt_xs.jpg" alt="Geogitter mit Vliesstoff kombiniert">
-		  <figcaption>
-		    Geogitter mit Vliesstoff kombiniert
-		  </figcaption>
-		</figure>
-		<figure>
-		  <img src="img/produkte/vliesstoff-verstaerkt_xs.jpg" alt="Vliesstoff verstärkt durch eine Gitterstruktur ( auch mit HPQ )">
-		  <figcaption>
-		    Vliesstoff verstärkt durch eine Gitterstruktur ( auch mit HPQ )
-		  </figcaption>
+			<figure>
+			  <img src="img/produkte/geogitter-vliesstoff-verstaerkt_xs.jpg" alt="Geogitter mit Vliesstoff kombiniert">
+			  <figcaption>
+			    Geogitter mit Vliesstoff kombiniert
+			  </figcaption>
+			</figure>
+			<figure>
+			  <img src="img/produkte/vliesstoff-verstaerkt_xs.jpg" alt="Vliesstoff verstärkt durch eine Gitterstruktur ( auch mit HPQ )">
+			  <figcaption>
+			    Vliesstoff verstärkt durch eine Gitterstruktur ( auch mit HPQ )
+			  </figcaption>
+			</figure>
 		</figure>
 	</div>
 	<div id="gewebe" class="content gallery">
 		<h2>Gewebe</h2>
 		<figure>
-		  <img src="img/produkte/gewebe-pp_band-spleissgarn_xs.jpg" alt="PP-Bändchen- / Spleißgarngewebe">
-		  <figcaption>
-		    PP-Bändchen- / Spleißgarngewebe
-		  </figcaption>
-		</figure>
-		<figure>
-		  <img src="img/produkte/gewebe-multifilament_xs.jpg" alt="PET-Multifilamentgewebe">
-		  <figcaption>
-		    PET-Multifilamentgewebe
-		  </figcaption>
+			<figure>
+			  <img src="img/produkte/gewebe-pp_band-spleissgarn_xs.jpg" alt="PP-Bändchen- / Spleißgarngewebe">
+			  <figcaption>
+			    PP-Bändchen- / Spleißgarngewebe
+			  </figcaption>
+			</figure>
+			<figure>
+			  <img src="img/produkte/gewebe-multifilament_xs.jpg" alt="PET-Multifilamentgewebe">
+			  <figcaption>
+			    PET-Multifilamentgewebe
+			  </figcaption>
+			</figure>
 		</figure>
 	</div>
 	<div id="drainmatten" class="content liste">

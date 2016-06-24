@@ -1,24 +1,30 @@
-body > header,
-body > .banner{
-	position:absolute;
-	top:0;
-	left:0;
-	right:0;
-}
-body > header{
-	z-index:9;
-	min-height:100px;
-}
-body > header {
-	@include alpha-background-color(rgba(white, 0.75), black);
+body {
+	background: {
+		position: 50% $headerHeight;
+		repeat:repeat-x;
+		size: auto $bgBodyHeight;
+	}
+	&.home{
+		background-position-y: 0;
+		background-size: auto $bgBodyHomeHeight;
+	}
+	> header {
+		@include alpha-background-color(rgba(white, 0.75), black);
+	}
 }
 .banner {
-	
-	> img {
-		width:100%;
-		max-width:none;
-		height:auto;
+	position: relative;
+	height: $bgBodyHeight;
+	body.home & {
+		height: $bgBodyHomeHeight - $headerHeight;
 	}
+	& + .wrapper{
+		margin-top:3 * $vspacing;
+	}
+}
+body > header {
+	height: $headerHeight;
+	padding-top: 2em;
 }
 body > footer {
 	background:$color_primary;

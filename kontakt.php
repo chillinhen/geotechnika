@@ -1,3 +1,7 @@
+<?php 
+$title="Kontakt/ Impressum";
+$bodyClass="kontakt";
+?>
 <?php include 'inc/header.php'; ?>
 <div class="wrapper">
 	<?php include 'inc/navigation.php'; ?>

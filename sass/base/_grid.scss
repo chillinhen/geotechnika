@@ -1,15 +1,50 @@
 .wrapper{
 	@include outer-container(960px);
-	
-	body > header & > *{
-		@include span-columns(6);
+	body > header & h1{
+		@include span-columns(4);
+		
 	}
+	body > header & .contact-data{
+		@include span-columns(8);
+		
+	}
+	
+	body > header & > h1  img {
+		width:$menuWidth;
+		max-width: none;
+	}
+	
 }
 
 .content{
 	@include outer-container;
 	padding-bottom:3 * $vspacing;
-	figure{
+	
+/*	figure figure{
 		@include span-columns(4);
+	}*/
+	
+	
+	> figure{
+		@include align-items(stretch);
+		@include display(flex);
+		@include flex-direction(row);
+		@include justify-content(flex-start);
+		
+		> figure{
+			@include flex-basis(300px);
+			margin-right: 2em;
+			
+			img {
+				width: 100%;
+				height: auto;}
+			figcaption{
+				font-size: small;
+				text-align: center;
+				display: block;
+				padding: 1em 0;
+				color: lighten($color_body,25%);
+			}
+		}
 	}
 }

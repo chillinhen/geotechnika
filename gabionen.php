@@ -1,7 +1,10 @@
-<!-- Add your site or application content here -->
+<?php 
+	$title="Gabionen";
+	$bodyClass="gabionen";
+	$bodyBackgroundImage = "img/banner_gabionen.png";
+?>
 <?php include 'inc/header.php'; ?>
-<div class="banner">
-	<img src="img/banner_gabionen.png" alt="Ihr kompetenter Fachgroßhandel für Geokunstoffe und Gabionen">
+<div class="banner wrapper">
 	<?php include 'inc/navigation.php'; ?>
 </div>
 <div class="wrapper">
@@ -44,24 +47,28 @@
 <div id="spiral-gabionen" class="content gallery">
 	<h2>Spiral-Gabionen</h2>
 	<figure>
-	  <img src="img/produkte/gabionen-spiral-01_xs.jpg" alt="...">
-	  <!--<figcaption>...</figcaption>-->
-	</figure>
-	<figure>
-	  <img src="img/produkte/gabionen-spiral-02_xs.jpg" alt="...">
-	   <!--<figcaption>...</figcaption>-->
+		<figure>
+		  <img src="img/produkte/gabionen-spiral-01_xs.jpg" alt="...">
+		  <!--<figcaption>...</figcaption>-->
+		</figure>
+		<figure>
+		  <img src="img/produkte/gabionen-spiral-02_xs.jpg" alt="...">
+		   <!--<figcaption>...</figcaption>-->
+		</figure>
 	</figure>
 </div>
 
 <div id="oesen-gabionen" class="content gallery">
 	<h2>Ösen-Gabionen</h2>
 	<figure>
-	  <img src="img/produkte/gabionen-oese-01_xs.jpg" alt="...">
-	  <!--<figcaption>...</figcaption>-->
-	</figure>
-	<figure>
-	  <img src="img/produkte/gabionen-oese-02_xs.jpg" alt="...">
-	   <!--<figcaption>...</figcaption>-->
+		<figure>
+		  <img src="img/produkte/gabionen-oese-01_xs.jpg" alt="...">
+		  <!--<figcaption>...</figcaption>-->
+		</figure>
+		<figure>
+		  <img src="img/produkte/gabionen-oese-02_xs.jpg" alt="...">
+		   <!--<figcaption>...</figcaption>-->
+		</figure>
 	</figure>
 </div>
 

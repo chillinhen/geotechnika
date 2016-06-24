@@ -1,0 +1,42 @@
+.main-nav{
+	position:absolute;
+	z-index: 99;
+	body:not(.kontakt) &{
+		
+		bottom: 0;
+	}
+	body.kontakt &{
+		top: 100px;
+		
+		~ div {
+		margin-left: $menuWidth + 2*$vspacing;
+		}
+	}
+
+	ul {
+		background:$color_primary;
+		width: $menuWidth;
+		* {color:white;}
+		padding:3*$vspacing 2*$vspacing;		
+		li {
+			font-size:large;
+			line-height: 2;
+			a{
+				display: block;
+				
+			}
+		}
+		
+	}
+	&:after{
+		content:' ';
+		display:block;
+		width:inherit;
+		height:2 * $vspacing;
+		margin-bottom: - 2 * $vspacing;
+		@include linear-gradient(to top, transparent, $color_primary);
+		opacity: .5;
+	}
+
+	
+}

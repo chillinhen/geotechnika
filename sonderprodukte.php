@@ -1,7 +1,10 @@
-<!-- Add your site or application content here -->
+<?php 
+$title="Sonderprodukte";
+$bodyClass="sonderprodukte";
+$bodyBackgroundImage = "img/banner_sonderprodukte.png";
+?>
 <?php include 'inc/header.php'; ?>
-<div class="banner">
-	<img src="img/banner_sonderprodukte.png" alt="Ihr kompetenter Fachgroßhandel für Geokunstoffe und Gabionen">
+<div class="banner wrapper">
 	<?php include 'inc/navigation.php'; ?>
 </div>
 <div class="wrapper">
@@ -23,9 +26,9 @@
 	<div id="asphalteinlagen" class="content liste">
 		<h2>Asphalteinlagen</h2>
 		<ul>
-			<li>Vliesstoff</li>	​
-			<li>Verbundstoff​​</li>	 
-			<li>Gitter​</li>		​
+			<li>Vliesstoff</li>
+			<li>Verbundstoff​​</li>
+			<li>Gitter​</li>
 			<li>Bituminierte Bahnen</li>
 		</ul>
 	</div>

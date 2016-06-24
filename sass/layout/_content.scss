@@ -1,0 +1,15 @@
+.contact-data{
+		font-size: large;
+		
+		&, * {color: $color_primary;
+		
+		ul {float: right;}
+		i.fa {margin-right: 1em;}
+		}
+}
+
+figure{
+	img {
+		@include img-shadow;
+	}
+}

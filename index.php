@@ -1,20 +1,25 @@
-<!-- Add your site or application content here -->
+<?php 
+$title="Startseite";
+$bodyClass="home";
+$bodyBackgroundImage = "img/banner_index.png";
+?>
 <?php include 'inc/header.php'; ?>
-<div class="banner">
-	<img src="img/banner_index.png" alt="Ihr kompetenter Fachgroßhandel für Geokunstoffe und Gabionen">
+
+<div class="banner wrapper">
 	<?php include 'inc/navigation.php'; ?>
 </div>
-<hgroup>
-	<h1>
-		Herzlich willkommen bei <?php include 'inc/logo.php'; ?>
-	</h1>
-	<h2>
-		Ihr kompetenter Fachgroßhandel für Geokunststoffe und Gabionen
-	</h2>
-</hgroup>
-<?php include 'buttons.php'; ?>
 
-<div class="content">
+
+<div class="content wrapper">
+	<hgroup>
+		<h1>
+			Herzlich willkommen bei <?php include 'inc/logo.php'; ?>
+		</h1>
+		<h2>
+			Ihr kompetenter Fachgroßhandel für Geokunststoffe und Gabionen
+		</h2>
+	</hgroup>
+	<?php include 'buttons.php'; ?>
 	<p>Die umfangreiche  Lagerhaltung der Standardprodukte ermöglicht eine zeitnahe zuverlässige
 	und termingerechte Belieferung unserer Kunden</p>
 	 

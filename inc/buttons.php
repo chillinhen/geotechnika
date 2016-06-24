@@ -12,6 +12,6 @@
 	<!-- Mail-->
 	<a href="mailto:geotechnika@t-online.de" class="mail">
 		<i class="fa fa-envelope" aria-hidden="true"></i>
-		mailto:geotechnika@t-online.de
+		geotechnika@t-online.de
 	</a>
 </div>

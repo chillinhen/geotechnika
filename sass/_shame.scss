@@ -1,26 +1,16 @@
-.banner + .wrapper{
-	margin-top:375px;
-}
-
-.main-nav{
-	position:relative;
+.buttons{
+	margin: 3*$vspacing 0;
 	
-	ul {
-		background:$color_primary;
-		* {color:white;}
-		position:absolute;
-		padding:3*$vspacing 2*$vspacing;		
-		li {
-			font-size:large;
-		}
-		&:after{
-			content:' ';
-			display:block;
-			width:inherit;
-			height:3 * $vspacing;
-			@include linear-gradient(red, green);
-		}
+	@include align-items(center);
+	@include display(flex);
+	@include flex-direction(row);
+	@include justify-content(space-around);
+	
+	* {
+		color: $color_primary;
+		font-size: large;
 	}
-
-	
+	i.fa{
+		margin-right: .5em;
+	}
 }
