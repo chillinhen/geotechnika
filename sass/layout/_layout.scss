@@ -1,6 +1,6 @@
 body > main{
 	> header {
-		@include alpha-background-color(rgba(white, 0.75), black);
+		@include alpha-background-color(rgba($color_bg, 0.75), black);
 	}
 }
 
@@ -21,7 +21,7 @@ body > main > header {
 body > main + footer {
 	background:$color_primary;
 	*, a {
-	color:white;
+	color:$color_bg;
 	}
 	nav {
 		text-align:center;
@@ -34,7 +34,7 @@ body > main + footer {
 		}
 	}
 	a:hover, a:visited{
-		color:white;
+		color:$color_bg;
 	}
 	
 }
@@ -60,7 +60,7 @@ body > main + footer {
 	border:{
 		width:0 .5em;
 		style:solid;
-		color:white;
+		color:$color_bg;
 	}
 	img {
 		max-width:none;

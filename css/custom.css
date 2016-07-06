@@ -390,6 +390,9 @@ table {
 th {
   font-weight: bold; }
 
+tr:nth-child(even) td {
+  background: #eee; }
+
 img {
   height: auto;
   max-width: 100%;
@@ -413,9 +416,9 @@ a {
   z-index: 99; }
   body:not(.kontakt) .main-nav {
     bottom: 0; }
-  body.kontakt .main-nav {
+  body.kontakt .main-nav, body.error404 .main-nav {
     top: 100px; }
-    body.kontakt .main-nav ~ div {
+    body.kontakt .main-nav ~ div, body.error404 .main-nav ~ div {
       margin-left: 283px; }
   .main-nav ul {
     background: #2ea724;
@@ -558,7 +561,7 @@ body > main > header {
 body > main + footer {
   background: #2ea724; }
   body > main + footer *, body > main + footer a {
-    color: white; }
+    color: #fff; }
   body > main + footer nav {
     text-align: center;
     padding: 1.4em 0; }
@@ -569,7 +572,7 @@ body > main + footer {
       body > main + footer nav li:last-child {
         border: 0; }
   body > main + footer a:hover, body > main + footer a:visited {
-    color: white; }
+    color: #fff; }
 
 .banner {
   background-position: top center;
@@ -587,7 +590,7 @@ body > main + footer {
   overflow: hidden;
   border-width: 0 .5em;
   border-style: solid;
-  border-color: white; }
+  border-color: #fff; }
   @media screen and (max-width: 480px) and (orientation: portrait) {
     .location {
       display: none; } }

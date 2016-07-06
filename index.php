@@ -26,14 +26,13 @@ $bodyBackgroundImage = "img/banner_index.jpg";
 		</h2>
 	</hgroup>
 	<?php include 'inc/buttons.php'; ?>
-	<p>Die umfangreiche  Lagerhaltung der Standardprodukte ermöglicht eine zeitnahe zuverlässige
-	und termingerechte Belieferung unserer Kunden</p>
+	<p>Die umfangreiche Lagerhaltung der Standardprodukte ermöglicht eine zeitnahe zuverlässige und termingerechte Belieferung unserer Kunden</p>
 	 
 	 
 	<p>Markterfahrung seit 1988, Fachkompetenz und Nachhaltigkeit sprechen für sich.</p>
 	 
 	 
-	<p>Erfolg ist:  wenn der Kunde zurück kommt und nicht die Ware.</p>
+	<p>Erfolg ist: wenn der Kunde zurück kommt und nicht die Ware.</p>
 </div>
 <?php include 'inc/footer.php'; ?>
 

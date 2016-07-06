@@ -13,7 +13,7 @@ $bodyClass="kontakt";
 		<ul>
 			<li><span>Tel.:</span><span>08102- 999 73 99​</span></li>	 
 			<li><span>Fax:</span><span>08102- 999 73 98</span>​</li>	 
-			<li><span>E-Mail</span><a href="mailto:geotechnika@t-online.de​">geotechnika@t-online.de​</a></li>
+			<li><span>E-Mail: </span><a href="mailto:geotechnika@t-online.de​">geotechnika@t-online.de​</a></li>
 		</ul>
 	</div>
 	

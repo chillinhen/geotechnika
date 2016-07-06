@@ -230,6 +230,9 @@ table {
 th {
     font-weight: bold;
 }
+tr:nth-child(even){
+	td {background:$color_table-row;}
+}
 img {
     height: auto; // Make sure images are scaled correctly.
     max-width: 100%; // Adhere to container width.

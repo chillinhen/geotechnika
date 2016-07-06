@@ -25,9 +25,9 @@ $bodyBackgroundImage = "img/banner_geokunststoffe.jpg";
 		<h2>Vliesstoffe</h2>
 		<ul>
 			<li>Klassifizierte Vliesstoffe GRK 2 – GRK 5​für den Landschafts-Erd- und Straßenbau</li>	 
-			<li>Vliesstoffe​mit HPQ für den Gleisbau</li>
-			<li>Schutzvliesstoffe​300 g/m² bis 1.200 g/m²</li>
-			<li>Rohrschutzmatten RSM 1.000 g/m² / 1.200 g/m² / 1.500 g/m² /
+			<li>Vliesstoffe ​mit HPQ für den Gleisbau</li>
+			<li>Schutzvliesstoffe ​300 g/m² bis 1.200 g/m²</li>
+			<li>Rohrschutzmatten RSM 1.000 g/m² / 1.200 g/m² / 2.000 g/m² /
 			    Sonderanfertigung nach Kundenwunsch</li>
 			<li>Betonvlies nach ZTV-Beton-StB</li>
 		</ul>
@@ -67,7 +67,7 @@ $bodyBackgroundImage = "img/banner_geokunststoffe.jpg";
 			<figure>
 			  <img src="img/produkte/vliesstoff-verstaerkt_xs.jpg" alt="Vliesstoff verstärkt durch eine Gitterstruktur ( auch mit HPQ )">
 			  <figcaption>
-			    Vliesstoff verstärkt durch eine Gitterstruktur ( auch mit HPQ )
+			    Vliesstoff verstärkt durch eine Gitterstruktur <br>( auch mit HPQ )
 			  </figcaption>
 			</figure>
 		</figure>
@@ -94,7 +94,7 @@ $bodyBackgroundImage = "img/banner_geokunststoffe.jpg";
 		<ul>
 			<li>druckstabiler extrudierter Drainkern mit einseitigem oder beidseitigem Vliesstoff</li>	 
 			<li>druckstabiler Drainkern aus Monofilamenten mit einseitigem oder beidseitigem Vliesstoff</li>
-			<li>Drainmatte  nach WAS 7</li>
+			<li>Drainmatte nach WAS 7</li>
 		</ul>
 	</div>
 <?php include 'inc/buttons.php'; ?>

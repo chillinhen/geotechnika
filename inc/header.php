@@ -13,18 +13,18 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900italic,900,700italic' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/custom.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
+        <link rel="stylesheet" href="css/main.css" media="all">
+        <link rel="stylesheet" href="css/custom.min.css" media="all">
+        <link rel="stylesheet" href="css/print.css" media="print">
+            </head>
     <body class="<?php echo $bodyClass;?>">
         <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <p class="browserupgrade">Sie nutzen einen <strong>veralteten</strong> Browser. Bitte <a href="http://browsehappy.com/">aktualisieren Sie IHren Browser</a> um die Darstellung zu verbessern.</p>
         <![endif]-->
         <main>
 <header>
 	<div class="wrapper">
-		<h1 id="logo"><a href="index.php"><?php include 'logo.php'; ?></a></h1>
+		<h1 id="logo"><a href="index"><?php include 'logo.php'; ?></a></h1>
 		<div class="contact-data">
 			<ul>
 				<li class="phone">
