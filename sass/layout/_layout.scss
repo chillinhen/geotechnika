@@ -1,34 +1,26 @@
-body {
-	background: {
-		position: 50% $headerHeight;
-		repeat:repeat-x;
-		size: auto $bgBodyHeight;
-	}
-	&.home{
-		background-position-y: 0;
-		background-size: auto $bgBodyHomeHeight;
-	}
+body > main{
 	> header {
 		@include alpha-background-color(rgba(white, 0.75), black);
 	}
 }
-.banner {
-	position: relative;
-	height: $bgBodyHeight;
-	body.home & {
-		height: $bgBodyHomeHeight - $headerHeight;
+
+body > main > header {
+	@media screen and (max-width:$screen-xs){
+		height:1.5 * $headerHeight; 
 	}
-	& + .wrapper{
-		margin-top:3 * $vspacing;
+	@media screen and (min-width:$screen-xs) and (max-width:$screen-sm){
+		height:1.2 * $headerHeight; 
 	}
+	@media screen and (min-width:$screen-md){
+		height: $headerHeight;
+		padding-top: 2em;
+	}
+
 }
-body > header {
-	height: $headerHeight;
-	padding-top: 2em;
-}
-body > footer {
+
+body > main + footer {
 	background:$color_primary;
-	* {
+	*, a {
 	color:white;
 	}
 	nav {
@@ -41,18 +33,47 @@ body > footer {
 			&:last-child{border:0;}
 		}
 	}
-	a:hover{
+	a:hover, a:visited{
 		color:white;
 	}
 	
 }
-
+.banner {
+	background-position:top center;
+	background-repeat:repeat-x;
+	
+	.backgroundsize & {
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+	position: relative;
+	min-height: $bgBodyHeight;
+	margin-bottom:3 * $vspacing;
+}
+.location {
+	@media screen and (max-width:$screen-xs) and (orientation:portrait){
+		display:none;
+	}
+	float:right;
+	width:calc($bgBodyHeight + 28px);
+	overflow:hidden;
+	border:{
+		width:0 .5em;
+		style:solid;
+		color:white;
+	}
+	img {
+		max-width:none;
+	}
+}
 .content{
 	margin-bottom:$vspacing;
 	border-bottom:1px solid $color_border;
 }
 
  .scroll-to-top {
+ 	.home & {display:none;}
+ 	
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
     @include border-radius(.5em);
     bottom: 5%;

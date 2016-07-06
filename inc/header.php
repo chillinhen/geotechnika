@@ -2,7 +2,7 @@
 <html class="no-js" lang="">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=8,IE=11,IE=Edge,chrome=1" />
         <title><?php echo $title;?></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,10 +17,11 @@
         <link rel="stylesheet" href="css/custom.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body class="<?php echo $bodyClass;?>" style="background-image: url('<?php echo $bodyBackgroundImage;?>');">
+    <body class="<?php echo $bodyClass;?>">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <main>
 <header>
 	<div class="wrapper">
 		<h1 id="logo"><a href="index.php"><?php include 'logo.php'; ?></a></h1>

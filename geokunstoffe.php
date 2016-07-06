@@ -1,11 +1,14 @@
 <?php 
 $title="Geokunststoffe";
 $bodyClass="geokunststoffe";
-$bodyBackgroundImage = "img/banner_geokunststoffe.png";
+$bodyBackgroundImage = "img/banner_geokunststoffe.jpg";
 ?>
 <?php include 'inc/header.php'; ?>
-<div class="banner wrapper">
-	<?php include 'inc/navigation.php'; ?>
+
+<div class="banner" style="background-image: url('<?php echo $bodyBackgroundImage;?>');">
+	<div class="wrapper">
+		<?php include 'inc/navigation.php'; ?>
+	</div>
 </div>
 <div class="wrapper">
 	<hgroup>

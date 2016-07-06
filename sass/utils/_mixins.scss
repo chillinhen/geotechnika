@@ -2,3 +2,12 @@
 -webkit-box-shadow: 3px 3px 6px 0 rgba(0,0,0,0.15);
 box-shadow: 3px 3px 6px 0 rgba(0,0,0,0.15);
 }
+
+@mixin responsive-flex{
+	@media screen and (max-width:$screen-xs){
+		@include flex-direction(column);
+	}
+	@media screen and (min-width:$screen-sm){
+		@include flex-direction(row);
+	}
+}

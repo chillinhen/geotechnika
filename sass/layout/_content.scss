@@ -1,15 +1,70 @@
-.contact-data{
-		font-size: large;
-		
-		&, * {color: $color_primary;
-		
-		ul {float: right;}
-		i.fa {margin-right: 1em;}
-		}
-}
-
 figure{
 	img {
 		@include img-shadow;
+	}
+}
+
+.contact-data{
+		font-size: large;
+		&, * {color: $color_primary;
+		i.fa {margin-right: 1em;}
+		}
+		@media screen and (min-width:$screen-sm){
+			
+			
+			ul {
+				float: right;
+				padding:0 1em;
+				}
+		}
+}
+
+.buttons{
+	margin: 3*$vspacing 0;
+	
+	@include align-items(center);
+	@include display(flex);
+	@include justify-content(space-around);
+	@include responsive-flex;
+	
+	* {
+		color: $color_primary !important;
+		
+	}
+	@media screen and (max-width:$screen-xs) and (orientation:portrait){
+		font-size: large;
+	}
+	@media screen and (max-width:$screen-smallPad) and (orientation:landscape){
+		font-size:small;
+	}
+	@media screen and (min-width:$screen-sm){
+		font-size: large;
+	}
+	i.fa{
+		margin-right: .5em;
+	}
+}
+
+.content{
+	@include outer-container(960px);
+
+	.home &{
+		text-align:center;
+		border:0;
+	}
+	.home & h1 {
+		span{
+			display:inline-block;
+			vertical-align:baseline;
+		}
+		img {
+			@media screen and (min-width:$screen-sm){
+				max-width:none;
+				height:45px;
+				width:auto;
+				margin-left:.5em;
+			}
+
+		}
 	}
 }

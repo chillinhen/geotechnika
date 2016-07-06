@@ -1,12 +1,16 @@
 <?php 
 $title="Sonderprodukte";
 $bodyClass="sonderprodukte";
-$bodyBackgroundImage = "img/banner_sonderprodukte.png";
+$bodyBackgroundImage = "img/banner_sonderprodukte.jpg";
 ?>
 <?php include 'inc/header.php'; ?>
-<div class="banner wrapper">
-	<?php include 'inc/navigation.php'; ?>
+
+<div class="banner" style="background-image: url('<?php echo 	$bodyBackgroundImage;?>');">
+	<div class="wrapper">
+		<?php include 'inc/navigation.php'; ?>
+	</div>
 </div>
+
 <div class="wrapper">
 	<hgroup>
 		<h1>
